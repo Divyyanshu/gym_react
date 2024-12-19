@@ -11,7 +11,7 @@ const Aboutus = () => {
                         className="w-[18rem] h-[26rem] sm:w-[22rem] sm:h-[32rem] rounded-lg"
                     />
                 </div>
-                <div className="px-5 py-5 sm:px-10 sm:py-20">
+                <div className="px-5 py-5 sm:px-10 sm:py-20 items-center">
                     <p className="text-2xl sm:text-3xl text-[#7f7f7f] font-[500] text-center sm:text-left">About Us</p>
                     <p className="text-3xl sm:text-4xl font-semibold mt-3 text-center sm:text-left">
                         WE <span className="text-[#0B9AD6]">BELIEVE</span>
@@ -40,6 +40,26 @@ const Aboutus = () => {
                     <p className="text-[1rem] sm:text-[1.1rem] font-[500] text-justify">
                         start their own business.
                     </p>
+                    <div className="flex flex-col sm:flex-row justify-around items-center my-10 gap-y-5 sm:gap-y-0">
+                        {/* Happy Clients */}
+                        <div className="text-center sm:text-left">
+                            <p className="text-2xl font-semibold">450+</p>
+                            <p className="font-semibold">Happy Clients</p>
+                        </div>
+
+                        {/* Year of Excellence */}
+                        <div className="text-center sm:text-left">
+                            <p className="text-2xl font-semibold">12+</p>
+                            <p className="font-semibold">Year of Excellence</p>
+                        </div>
+
+                        {/* Coaches */}
+                        <div className="text-center sm:text-left">
+                            <p className="text-2xl font-semibold">10+</p>
+                            <p className="font-semibold">Coaches</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </>
