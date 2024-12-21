@@ -4,6 +4,8 @@
 
 @layer base {
     html {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Be Vietnam Pro", serif;
+      font-weight: 600;
+      font-style: normal
     }
   }
