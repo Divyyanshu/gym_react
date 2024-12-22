@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo/sr-fitness-logo.png';
+import logo from '../assets/logo/dr-fitness-logo.png';
 import NavButton from './buttons/NavButton';
 
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className="block text-sm font-normal hover:text-[#0b9ad6]"
+                  className="block text-sm font-normal hover:text-[#FF1E00]"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Home
@@ -58,7 +58,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/about_us"
-                  className="block text-sm font-normal hover:text-[#0b9ad6]"
+                  className="block text-sm font-normal hover:text-[#FF1E00]"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About Us
@@ -67,7 +67,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/coaches"
-                  className="block text-sm font-normal hover:text-[#0b9ad6]"
+                  className="block text-sm font-normal hover:text-[#FF1E00]"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Coaches
@@ -76,7 +76,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/facilities"
-                  className="block text-sm font-normal hover:text-[#0b9ad6]"
+                  className="block text-sm font-normal hover:text-[#FF1E00]"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Facilities
@@ -85,7 +85,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/pricing"
-                  className="block text-sm font-normal hover:text-[#0b9ad6]"
+                  className="block text-sm font-normal hover:text-[#FF1E00]"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Pricing
