@@ -7,7 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import Pricing from "./pages/Pricing";
 import Facilities from "./pages/Facilities";
 import ErrorPage from "./pages/ErrorPage";
-import Footer from "./component/Footer";
+// import Footer from "./component/Footer";
 import {PacmanLoader} from 'react-spinners'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     // Simulate loading delay (e.g., data fetching or asset loading)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust delay as needed
+    }, 4000); // Adjust delay as needed
 
     return () => clearTimeout(timer); // Cleanup timer on component unmount
   }, []);
@@ -37,7 +37,7 @@ function App() {
             <Route path="/pricing" element={<Pricing />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </>
       )}
     </>
