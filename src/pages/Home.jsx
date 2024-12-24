@@ -1,5 +1,4 @@
-// import bgBanner from '../assets/image/slope.png'
-import heroGirl from '../assets/image/hero-section-image.png'
+
 import AboutUs from './AboutUs';
 import Pricing from './Pricing';
 import Facilities from './Facilities';

@@ -3,7 +3,7 @@ import AboutImageTablet from '../assets/image/about-us-image-tablet.png';
 
 const AboutUs = () => {
     return (
-        <div className='mx-10 mb-20'>
+        <div className='mx-10 mt-10 mb-5'>
              <div className=" flex flex-col md:flex-row items-center">
             {/* Image Section */}
             <div className="w-full md:w-1/2 flex justify-center">
@@ -25,13 +25,13 @@ const AboutUs = () => {
                     little things <span className="text-[#FF1E00] font-bold">matter</span>
                 </p>
                 <p className="text-lg md:text-xl font-normal pb-5">
-                    Welcome to SR Fine, your number one source for your good health. We're dedicated to providing you
+                    Welcome to DR Fine, your number one source for your good health. We're dedicated to providing you
                     the very best of your fitness, with an emphasis on extremely trained coaches, up-to-the-mark
                     infrastructure, personal focus on each client.
                 </p>
                 <p className="text-lg md:text-xl font-normal">
-                    Founded in 2001 by Ajay Soni, SR Fitness has come a long way from its beginnings in Bhilwara,
-                    Rajasthan. When Ajay Soni first started out, his passion for fitness and health drove them to start
+                    Founded in 2002 by Divyanshu Tailor, DR Fitness has come a long way from its beginnings in Bhilwara,
+                    Rajasthan. When Divyanshu Tailor first started out, his passion for fitness and health drove them to start
                     their own business.
                 </p>
 

@@ -6,6 +6,7 @@
     html {
       font-family: "Be Vietnam Pro", serif;
       font-weight: 600;
-      font-style: normal
+      font-style: normal;
+      scroll-behavior: smooth;
     }
   }

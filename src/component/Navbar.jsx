@@ -102,7 +102,7 @@ const Navbar = () => {
       </div>
 
       {/* Add padding to prevent content overlap */}
-      <div className="pt-20"></div>
+      <div className="pt-14"></div>
     </>
   );
 };

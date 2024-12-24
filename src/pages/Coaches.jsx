@@ -5,8 +5,8 @@ import Coach3 from '../assets/image/coach-3.jpg';
 
 const Coaches = () => {
   return (
-    <div className="mx-5 md:mx-20 mt-10 mb-5">
-      <p className="text-xl md:text-3xl font-light text-[#7F7F7F]">Our Coaches</p>
+    <div className="mx-5 md:mx-20 mt-20 mb-5">
+      <p className="text-xl md:text-3xl font-light text-[#7F7F7F] pb-2">Our Coaches</p>
       <p className="text-2xl md:text-5xl uppercase font-semibold pb-5">
         Meet with our
         <br />

@@ -7,6 +7,8 @@ import AboutUs from "./pages/AboutUs";
 import Pricing from "./pages/Pricing";
 import Facilities from "./pages/Facilities";
 import ErrorPage from "./pages/ErrorPage";
+import Contact from "./pages/Contact";
+
 // import Footer from "./component/Footer";
 import {PacmanLoader} from 'react-spinners'
 
@@ -17,7 +19,7 @@ function App() {
     // Simulate loading delay (e.g., data fetching or asset loading)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // Adjust delay as needed
+    }, 2000); // Adjust delay as needed
 
     return () => clearTimeout(timer); // Cleanup timer on component unmount
   }, []);
@@ -35,6 +37,7 @@ function App() {
             <Route path="/coaches" element={<Coaches />} />
             <Route path="/facilities" element={<Facilities />} />
             <Route path="/pricing" element={<Pricing />} />
+            <Route path="/contact_us" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           {/* <Footer /> */}
@@ -45,35 +48,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-// import { Routes , Route } from "react-router-dom";
-// import Navbar from "./component/Navbar";
-// import Home from "./pages/Home";
-// import Coaches from "./pages/Coaches";
-// import AboutUs from "./pages/AboutUs";
-// import Pricing from "./pages/Pricing";
-// import Facilities from "./pages/Facilities";
-// import ErrorPage from "./pages/ErrorPage";
-// import Footer from "./component/Footer";
-
-// function App() {
-//   return (
-//       <>
-//       <Navbar/>
-//       <Routes>
-//         <Route path="/" element={<Home/>}/>
-//         <Route path="/about_us" element={<AboutUs/>}/>
-//         <Route path="/coaches" element={<Coaches/>}/>
-//         <Route path="/facilities" element={<Facilities/>}/>
-//         <Route path="/pricing" element={<Pricing/>}/>
-//         <Route path="*" element={<ErrorPage/>}/>
-//       </Routes>
-//       <Footer/>
-//       </>
-//   )
-// }
-// export default App
