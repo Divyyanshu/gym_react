@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "../component/Carousel";
+import ClientCard from "../component/ClientCard";
+import Banner from "../component/Banner";
 
 const Facilities = () => {
   return (
@@ -20,7 +22,22 @@ const Facilities = () => {
         <div className="px-4">
           <Carousel />
         </div>
+        <div>
+          <div className="text-center mt-20">
+            <p className="text-xl md:text-3xl font-light text-[#7F7F7F] pb-2">
+              Testimonials
+            </p>
+            <p className="text-2xl md:text-5xl uppercase font-semibold pb-14">
+              See what our
+              <br />
+              <span className="text-[#FF1E00] font-bold">client </span>
+              are saying
+            </p>
+          </div>
+          <ClientCard/>
+        </div>
       </div>
+      <Banner/>
     </>
   );
 };
