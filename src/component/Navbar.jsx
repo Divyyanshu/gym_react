@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../assets/logo/dr-fitness-logo.png';
-import NavButton from './buttons/NavButton';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo/dr-fitness-logo.png";
+import JoinNowButton from "./buttons/JoinNowButton";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +33,8 @@ const Navbar = () => {
                 strokeWidth="2"
                 d={
                   isMenuOpen
-                    ? 'M6 18L18 6M6 6l12 12' // Cross icon
-                    : 'M4 6h16M4 12h16M4 18h16' // Hamburger icon
+                    ? "M6 18L18 6M6 6l12 12" // Cross icon
+                    : "M4 6h16M4 12h16M4 18h16" // Hamburger icon
                 }
               />
             </svg>
@@ -42,8 +42,9 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <nav
-            className={`${isMenuOpen ? 'max-h-[50vh] opacity-100' : 'max-h-0 opacity-0'
-              } absolute top-16 left-0 w-full bg-gray-50 overflow-hidden transition-all duration-300 ease-in-out md:relative md:max-h-full md:opacity-100 md:flex md:gap-8 md:items-center md:top-0 md:w-auto`}
+            className={`${
+              isMenuOpen ? "max-h-[50vh] opacity-100" : "max-h-0 opacity-0"
+            } absolute top-16 left-0 w-full bg-gray-50 overflow-hidden transition-all duration-300 ease-in-out md:relative md:max-h-full md:opacity-100 md:flex md:gap-8 md:items-center md:top-0 md:w-auto`}
           >
             <ul className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
               <li>
@@ -93,7 +94,7 @@ const Navbar = () => {
               </li>
               <li>
                 <div>
-                  <NavButton />
+                  <JoinNowButton />
                 </div>
               </li>
             </ul>
